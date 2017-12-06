@@ -1,0 +1,8 @@
+node_modules
+dist/*.js
+dist/*.css
+dist/*.svg
+dist/*.ttf
+dist/*.eot
+dist/*.woff
+dist/*.woff2

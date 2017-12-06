@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "bootstrap";
+
+.row-container {
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row-container::before {
+  content: "react demo";
+}
