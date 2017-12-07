@@ -23,8 +23,8 @@ class Element extends React.Component {
   }
 }
 
-function render() {
+function start() {
   ReactDOM.render(<Element className={'container'} />, document.getElementById('app'));
 }
 
-export default render;
+export { start };
