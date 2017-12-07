@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { HelloWorld } from './demo/hello-world';
+import { HelloWorld, HelloWorldFunc } from './demo/hello-world';
 
 class Element extends React.Component {
   render() {
     const rowContainerClass = 'row-container';
 
     const rows = [
-      HelloWorld
+      HelloWorld,
+      HelloWorldFunc
     ];
 
     const inner = rows.map((Value, index) => {
