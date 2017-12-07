@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { HelloWorld, HelloWorldFunc } from './demo/hello-world';
+import { TicTacToe } from './demo/tic-tac-toe';
 
 class Element extends React.Component {
   render() {
@@ -9,7 +10,8 @@ class Element extends React.Component {
 
     const rows = [
       HelloWorld,
-      HelloWorldFunc
+      HelloWorldFunc,
+      TicTacToe
     ];
 
     const inner = rows.map((Value, index) => {
