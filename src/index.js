@@ -1,5 +1,5 @@
 //import * as app from './app';
-import { start } from './todos/index'
+import { start } from './todosv2/index'
 import './index.scss';
 
 //app.start();
